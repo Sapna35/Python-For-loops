@@ -1,0 +1,8 @@
+#wap to print how many special character present in a given string.
+s=input()
+c=0
+for ele in s:
+    if ele.isalnum()!=True:
+        c+=1
+               
+print(c)
