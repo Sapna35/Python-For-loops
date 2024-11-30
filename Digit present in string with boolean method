@@ -1,0 +1,9 @@
+#wap to print how many digits present in string with boolean method
+s=input('enter a string')
+c=0
+for ele in s:
+    if ele.isdigit():
+        if int(ele)%2==0:
+            c+=1
+        
+print(c)
